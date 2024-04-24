@@ -32,13 +32,13 @@ Consists of three planets
 3. Planet C - Thanos’s Home
 
 
-- Line Following: Utilized an IR array and PID controller for precise navigation.
-- Wall Color Detection: Employed a ToF sensor and rear-mounted color sensor for wall identification.
-- Color Junction Detection: Utilized two under-mounted color sensors for identifying color junctions.
-- 3D Object Detection: Employed a ToF sensor for detecting object shapes.
-- Metal Box Detection and Grabbing: Determined box conductivity for metal detection and utilized a robotic arm for manipulation.
-- Wall Following: Implemented front and side-mounted ultrasonic sensors for navigating through the junkyard.
-- Obstacle Height Detection: Utilized two ToF sensors and one ultrasonic sensor to measure object heights.
+- Line Following
+- Wall Color Detection
+- Color Junction Detection
+- 3D Object Detection
+- Metal Box Detection and Grabbing
+- Wall Following
+- Obstacle Height Detection
 
 ## Methodology
 
