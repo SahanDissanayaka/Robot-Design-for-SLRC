@@ -1,44 +1,67 @@
 # Robot Design for SLRC
 
-## What is SLRC
-Sri Lankan Robotics Challenge ( SLRC ) is a competition  that organized by the department of electronic and telecommunication engineering, University of Moratuwa.
+## About SLRC
+The Sri Lankan Robotics Challenge (SLRC) is a competition organized by the Department of Electronic and Telecommunication Engineering, University of Moratuwa. It has two categories: the School Category and the University Category.
 
-## Who are we
-We are groot
-![Image Alt Text]([image_url]([(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/21651021807565.56307d384db0e.jpg](https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/21651021807565.56307d384db0e.jpg)
+## The Team
+We are a team of five undergraduates from the Department of Electronic and Telecommunication Engineering, University of Moratuwa, known collectively as "We are Groot." Our team members are:
 
+1. Sahan Dissanayaka
+2. Senum Dodangoda
+3. Sandaru Liyanaarachchi
+4. Pasindu Kulasingham
+5. Dilshan Nuwantha
+
+![Team](https://github.com/SahanDissanayaka/Robo-Design-for-SLRC/assets/94157820/d9f71375-dd2e-41f2-9184-a401bef87a5b)
+
+We proudly achieved a top 15 position in the university category and emerged as finalists in the competition.
 
 ## Our Task
-Our task for this competition is [add description of the task here]. Please refer to the attached PDF for detailed information.
+Our project tasks are inspired by the concept of infinity stones in the Avengers Movie. For detailed information, please refer to the attached PDF document.
 
-[Download Task PDF](link/to/your/pdf/file.pdf)
+[Download Task PDF](https://ent.uom.lk/wp-content/uploads/2024/01/SLRC-2024-University-Category-v1.pdf)
 
-## Description
-[Provide a brief description of the project here. What is the purpose of the robot design? What problem does it aim to solve?]
+## Our Robot
+![R2](https://github.com/SahanDissanayaka/Robo-Design-for-SLRC/assets/94157820/664b5fc4-112c-4e8c-b60f-a337049f9320)
+![R1](https://github.com/SahanDissanayaka/Robo-Design-for-SLRC/assets/94157820/df505a4e-a5cb-4996-8d80-acd97bba3415)
 
-## Tasks
-[Describe the tasks involved in the project and how they were achieved. You can list them and provide brief explanations.]
+## Project Tasks
+Consists of three planets
+1. Planet A - Mountains in Vormir
+2. Planet B - Ruins in Sakaar
+3. Planet C - Thanos’s Home
 
-1. Task 1: [Description]
-2. Task 2: [Description]
-3. Task 3: [Description]
-   ...
 
-## Installation
-[Provide instructions on how to install and set up the project, if applicable.]
+- Line Following: Utilized an IR array and PID controller for precise navigation.
+- Wall Color Detection: Employed a ToF sensor and rear-mounted color sensor for wall identification.
+- Color Junction Detection: Utilized two under-mounted color sensors for identifying color junctions.
+- 3D Object Detection: Employed a ToF sensor for detecting object shapes.
+- Metal Box Detection and Grabbing: Determined box conductivity for metal detection and utilized a robotic arm for manipulation.
+- Wall Following: Implemented front and side-mounted ultrasonic sensors for navigating through the junkyard.
+- Obstacle Height Detection: Utilized two ToF sensors and one ultrasonic sensor to measure object heights.
 
-## Usage
-[Explain how to use the project. Provide examples if necessary.]
+## Methodology
 
-## Contribution Guidelines
-[Explain how others can contribute to the project, such as reporting issues, submitting feature requests, or making code contributions.]
+Each task was executed using advanced sensors and control algorithms:
 
-## License
-[Specify the project's license. For example, MIT, Apache 2.0, etc.]
+### Line Following
+Utilized an IR array in conjunction with a PID controller for accurate line tracking.
 
-## Acknowledgements
-[Any acknowledgements or credits you'd like to include.]
+### Wall Color Detection
+Employed a ToF sensor for wall detection and a rear-mounted color sensor for precise color identification.
 
-## Contact
-[Provide contact information if users have questions or need support.]
+### Color Junction Detection
+Utilized strategically placed under-mounted color sensors to detect color junctions effectively.
+
+### 3D Object Detection
+Utilized advanced ToF sensor technology to accurately detect the shapes of objects.
+
+### Metal Box Detection and Grabbing
+Implemented conductivity testing to identify metal boxes and utilized a robotic arm for efficient grabbing.
+
+### Wall Following
+Employed a combination of front and side-mounted ultrasonic sensors for effective wall following.
+
+### Height Detection
+Utilized a combination of ToF and ultrasonic sensors to accurately measure object heights.
 
